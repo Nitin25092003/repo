@@ -1,0 +1,27 @@
+name: makers_seller_app
+description: "Mobile application designed for vendors to manage products and engage with customers."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_tabler_icons: ^1.43.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
